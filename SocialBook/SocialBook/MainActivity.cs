@@ -24,8 +24,8 @@ namespace SocialBook
             postList = new List<SocialPost>();
             SocialPost post1 = new SocialPost
             {
-                Name = "John Smith",
-                Message = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHH!!!!!!!!!!!!",
+                Name = "kalle Smith",
+                Message = "wow cool",
                 CommentNumber = "3 Comments",
                 Likes = 0,
                 Date = DateTime.Now.ToString("dd/MM/yy HH:mm"),
@@ -34,26 +34,26 @@ namespace SocialBook
                 {
                     new CommentData
                     {
-                        Name = "Jake",
-                        Message = "REEEEEEEEEEEEEEEEEEEEEEEEEE"
+                        Name = "paul",
+                        Message = "arge karjuge"
                     },
                     new CommentData
                     {
-                        Name = "Peeter",
-                        Message = "You suck"
+                        Name = "kalle",
+                        Message = "imed taiega"
                     },
                     new CommentData
                     {
                         Name = "Amy",
-                        Message = "Please stop"
+                        Message = "Buy my phone"
                     }
                 }
             };
             postList.Add(post1);
             SocialPost post2 = new SocialPost
             {
-                Name = "Gert-Andry Kääramees",
-                Message = "oiHAIUSgbuyagbrAGBWRAiuwgrbAWMhvNIANWRgbIAGrniBINUVriANgrAIWNRgbIULARvgbIAWRGnIUGRbNGRIUgb",
+                Name = "paul",
+                Message = "olen paul",
                 CommentNumber = "2 Comments",
                 Likes = 200,
                 Date = DateTime.Now.ToString("dd/MM/yy HH:mm"),
@@ -61,7 +61,7 @@ namespace SocialBook
                 {
                     new CommentData
                     {
-                        Name = "Poppy",
+                        Name = "yo",
                         Message = "AOIhgsiugb<oue"
                     },
                     new CommentData
@@ -83,21 +83,21 @@ namespace SocialBook
                 {
                     new CommentData
                     {
-                        Name = "Poppy",
+                        Name = "harlow",
                         Message = "AOIhgsiugb<oue"
                     },
                     new CommentData
                     {
-                        Name = "Karl",
-                        Message = "Buy my phone"
+                        Name = "tere",
+                        Message = "olen taun"
                     }
                 }
             };
             postList.Add(post3);
             SocialPost post4 = new SocialPost
             {
-                Name = "Rein",
-                Message = "I am vegan, that is all",
+                Name = "asd",
+                Message = "test",
                 CommentNumber = "2 Comments",
                 Likes = 2,
                 Date = DateTime.Now.ToString("dd/MM/yy HH:mm"),
@@ -105,21 +105,21 @@ namespace SocialBook
                 {
                     new CommentData
                     {
-                        Name = "Poppy",
+                        Name = "uwu",
                         Message = "AOIhgsiugb<oue"
                     },
                     new CommentData
                     {
-                        Name = "Karl",
-                        Message = "Buy my phone"
+                        Name = "peeter",
+                        Message = "Buy pants"
                     }
                 }
             };
             postList.Add(post4);
             SocialPost post5 = new SocialPost
             {
-                Name = "Koko",
-                Message = "Stop bullying",
+                Name = "uku",
+                Message = "tere",
                 CommentNumber = "1 Comments",
                 Likes = 5,
                 Date = DateTime.Now.ToString("dd/MM/yy HH:mm"),
@@ -127,7 +127,7 @@ namespace SocialBook
                 {
                     new CommentData
                     {
-                        Name = "Poppy",
+                        Name = "pille",
                         Message = "AOIhgsiugb<oue"
                     }
                 }
@@ -146,7 +146,7 @@ namespace SocialBook
             string postText = FindViewById<EditText>(Resource.Id.editText1).Text;
             postList.Add(new SocialPost
             {
-                Name = "Õpilane",
+                Name = "User",
                 Message = postText,
                 CommentNumber = "0 Comments",
                 Likes = 0,
