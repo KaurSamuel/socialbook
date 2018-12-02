@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialBook", "SocialBook\SocialBook.csproj", "{DB438B11-A6A0-4D1C-A61C-02FF0D27F5E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB438B11-A6A0-4D1C-A61C-02FF0D27F5E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB438B11-A6A0-4D1C-A61C-02FF0D27F5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB438B11-A6A0-4D1C-A61C-02FF0D27F5E9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DB438B11-A6A0-4D1C-A61C-02FF0D27F5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB438B11-A6A0-4D1C-A61C-02FF0D27F5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB438B11-A6A0-4D1C-A61C-02FF0D27F5E9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08A878E6-ABF0-4FC7-9409-E8CBB98AC8BF}
+	EndGlobalSection
+EndGlobal

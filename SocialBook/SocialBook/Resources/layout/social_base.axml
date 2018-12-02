@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<RelativeLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/relativeLayout1">
+		<ImageView
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/icon" />
+		<TextView
+			android:text="Status"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/icon"
+			android:id="@+id/statusTitle"
+			android:textSize="19sp"/>
+		<TextView
+			android:text="Date"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/date"
+			android:layout_alignParentRight="true"
+			android:layout_marginTop="5dp" />
+		<TextView
+			android:text="Message............."
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/icon"
+			android:id="@+id/message"
+			android:layout_below="@id/statusTitle"
+			android:layout_marginTop="35dp"
+			android:layout_marginLeft="15dp"
+			android:textSize="19sp"  />
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/message"
+			android:id="@+id/postImage"
+			android:layout_centerInParent="true" />
+		<TextView
+			android:text="Comments"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/postImage"
+			android:id="@+id/comments"
+			android:layout_marginRight="9dp"
+			android:layout_marginTop="5dp"
+			android:layout_alignParentRight="true" />
+		<ImageButton
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_below="@id/postImage"
+			android:layout_marginLeft="9dp"
+			android:layout_marginTop="5dp"
+			android:layout_width="30dip"
+			android:layout_height="30dip"
+			android:id="@+id/imageButton1"
+			android:scaleType="fitCenter" />
+		<TextView
+			android:text="Likes"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/postImage"
+			android:layout_toRightOf="@id/imageButton1"
+			android:id="@+id/likes"
+			android:layout_marginLeft="9dp"
+			android:layout_marginTop="5dp" />
+	</RelativeLayout>
+
+</LinearLayout>
